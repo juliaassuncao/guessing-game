@@ -17,11 +17,13 @@ export function App() {
         
         <Tip tip="Biblioteca para criar interfaces Web com Javascript." />
         
-        <Letter value="R" />
-        <Letter value="E" />
-        <Letter value="A" />
-        <Letter value="C" />
-        <Letter value="T" />
+        <div className={styles.word}>
+          <Letter value="R" />
+          <Letter value="E" />
+          <Letter value="A" />
+          <Letter value="C" />
+          <Letter value="T" />
+        </div>
       </main>
     </div>
   )
